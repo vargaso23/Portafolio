@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Portafolio</title>
+    <link rel="shortcut icon" href="img/profile.png" type="image/x-icon" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/Portafolio.css" />
+  </head>
+  <body style="background-image: url('img/fondorosa.jpg'); background-size: cover; background-position: center;">
+    <header class="container- bg-primary ">
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <h1 class="display-4 mx-auto my-3 text-white">Alejandra Vargas Bernal</h1>
+        <div class="profile-picture text-center">
+          <img src="img/perfil.png" alt="Imagen de perfil" class="rounded-circle" style="width: 150px; height: 150px;">
+        </div>
+      </nav>
+      <ul class="nav justify-content-center bg-light">
+        <li class="nav-item"></li>
+        <a class="nav-link" href="index.html">Acerca de mi</a>
+      </li>
+        <li class="nav-item">
+          <a class="nav-link" href="estudios.html">Estudios</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contactos.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="formulario.html">Formulario</a>
+        </li>
+      </ul>
+    </header>
+    </header>    
+    <main class="main justify-content-center ">
+        <section class="formulario  py-3 col-md-6 offset-md-3">
+            <h1 class="titulo text-center">Formulario</h1>
+            <p class="text-center">¿Algo te inquieta? ¡Escríbenos! Aquí te dejamos un formulario para que nos cuentes.</p>
+            <form class="form border p-3">
+                <div class="form-group">
+                    <label for="nombre">Ingrese su Nombre</label>
+                    <input id="nombre" type="text" name="nombre" placeholder="Tania Alejandra" class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <label for="Apellido">Ingrese su apellido</label>
+                    <input id="apellido" type="text" placeholder="Vargas" required class="form-control">
+                </div>
+
+                <div class="form-group">
+                    <fieldset>
+                        <legend>selecciona genero</legend>
+                        <input type="radio" name="genero" value="Masculino">Masculino
+                        <input type="radio" name="genero" value="Femenino">Femenino
+                        <input type="radio" name="genero" value="No sabe ">No sabe
+                    </fieldset>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="fecha">Fecha de nacimiento</label>
+                    <input type="date" name="fecha" id="fecha" class="form-control">
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="tel">ingrese tu numero telefonico</label>
+                    <input id="tel" type="tel" class="form-control">
+                </div>
+                <div class="form-group">
+                    <label for="pais">selecciona tu pais</label>
+                    <select name="pais" id="pais" class="form-control">
+                        <option value="Colombia">Colombia</option>
+                        <option value="Ecuador">Ecuador</option>
+                        <option value="Brasil">Brasil</option>
+                        <option value="Guatemala">Guatemala</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="Mexico">Mexico</option>
+                    </select>
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="Mensaje">Escriba un mensaje</label>
+                    <textarea name="Mensaje" id="Mensaje" class="form-control">escribe tu duda aqui</textarea>
+                </div>
+                <div class="form-group">
+                    <label for="email">ingrese su email</label>
+                    <input id="email" type="email" class="form-control">
+                </div>
+                <div>
+                    <button>enviar</button>
+                </div>
+    </main>            
+    <footer class="footer bg-light text-center py-3">
+        <p>&copy; 2024 Tania Alejandra Vargas Bernal</p>
+      </footer>    
+  </body>
+</html>
+
+        
